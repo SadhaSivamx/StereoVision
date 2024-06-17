@@ -1,5 +1,8 @@
 ## StereoVision
 stereovision with esp32 cams for depth estimation , using Yolo , Opencv etc 
+## References
+1. [ESP32 stereo camera for object detection, recognition and distance estimation](https://www.youtube.com/watch?v=CAVYHlFGpaw)
+2. [Depth Estimation with OpenCV Python for 3D Object Detection](https://www.youtube.com/watch?v=uKDAVcSaNZA)
 ## Steps Involved
 1. Capturing Images
 2. Spotting the Centre Point
@@ -7,6 +10,7 @@ stereovision with esp32 cams for depth estimation , using Yolo , Opencv etc
 4. Calculation of Disparity
 5. Calculation of Image Depth
 ## Diagram for Problem Approach
-![image](https://github.com/SadhaSivamx/StereoVision/assets/106687593/723f5d06-3292-4282-b232-df541423f275)
+![Screenshot 2024-06-17 125612](https://github.com/SadhaSivamx/StereoVision/assets/106687593/d229f085-0521-4db5-b903-f3ad643786d8)
 ## Output
-![WhatsApp Image 2024-06-17 at 12 13 38_146e6497](https://github.com/SadhaSivamx/StereoVision/assets/106687593/36d99794-844f-43da-8328-a6654327636e)
+![Esp32-StereoVision](https://github.com/SadhaSivamx/StereoVision/assets/106687593/b9ba9b04-ea1c-4d95-b157-046450cbd087)
+
