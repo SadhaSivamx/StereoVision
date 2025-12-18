@@ -1,0 +1,77 @@
+#include <Servo.h>
+
+Servo servo1;
+Servo servo2;
+
+String inputString = "";
+bool stringComplete = false;
+
+void setup() {
+  Serial.begin(9600);
+
+  servo1.attach(8);   // Servo 1 on pin 8
+  servo2.attach(9);   // Servo 2 on pin 9
+
+  // Initial position
+  servo1.write(90);
+  servo2.write(90);
+
+  Serial.println("Ready. Send command like: M1:90,M2:90");
+}
+
+void loop() {
+  if (stringComplete) {
+    processCommand(inputString);
+    inputString = "";
+    stringComplete = false;
+  }
+}
+
+// ----------------------------
+// Read Serial Input Line
+// ----------------------------
+void serialEvent() {
+  while (Serial.available()) {
+    char inChar = (char)Serial.read();
+    if (inChar == '\n') {
+      stringComplete = true;
+    } else {
+      inputString += inChar;
+    }
+  }
+}
+
+// ----------------------------
+// Command Processing
+// ----------------------------
+void processCommand(String cmd) {
+
+  // Remove spaces
+  cmd.replace(" ", "");
+
+  int m1Index = cmd.indexOf("M1:");
+  int m2Index = cmd.indexOf("M2:");
+
+  if (m1Index == -1 || m2Index == -1) {
+    Serial.println("Invalid command format");
+    return;
+  }
+
+  int commaIndex = cmd.indexOf(",", m1Index);
+
+  int angle1 = cmd.substring(m1Index + 3, commaIndex).toInt();
+  int angle2 = cmd.substring(m2Index + 3).toInt();
+
+  // Clamp angles to safe range
+  angle1 = constrain(angle1, 0, 180);
+  angle2 = constrain(angle2, 0, 180);
+
+  servo1.write(angle1);
+  servo2.write(angle2);
+
+  Serial.print("Moved -> ");
+  Serial.print("M1: ");
+  Serial.print(angle1);
+  Serial.print(" | M2: ");
+  Serial.println(angle2);
+}
