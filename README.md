@@ -26,6 +26,9 @@ The system achieves convergence by adjusting the servos to center the target in 
 This mechanical convergence forms two geometric triangles.By solving the equations derived from the 
 servo angles, the system calculates the exact depth ($Z$) of the object relative to the baseline.
 
+## Diagram for Problem Approach
+<img width="714" height="531" alt="image" src="https://github.com/user-attachments/assets/bef6c1d9-e222-42c4-8d49-9a8cd9e54421" />
+
 ## Output
 https://github.com/user-attachments/assets/2603df8d-184a-4ad2-aa12-cd7809b3de5b
 
