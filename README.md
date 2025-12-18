@@ -20,8 +20,8 @@ the Above Process is done for every pixel and the depthmap is generated
 ## Output
 ![DepthMap](https://github.com/user-attachments/assets/00ced0c9-b74e-4406-a1df-9be825a04e7e)
 ## Active Binocular vision system
-The Static base is replaced with servo system and Convergence of the image on both the setup is made
-by controlling the servo system with respect to the camera img.
+In this Active Binocular Vision System, the traditional static base is replaced with a servo-controlled mechanism.
+The system achieves convergence by adjusting the servos to center the target in both camera images.
 
 This mechanical convergence forms two geometric triangles.By solving the equations derived from the 
 servo angles, the system calculates the exact depth ($Z$) of the object relative to the baseline.
