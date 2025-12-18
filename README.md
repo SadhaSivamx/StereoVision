@@ -19,3 +19,13 @@ the Above Process is done for every pixel and the depthmap is generated
 1. [Simple Stereo | Camera Calibration](https://www.youtube.com/watch?v=hUVyDabn1Mg)
 ## Output
 ![DepthMap](https://github.com/user-attachments/assets/00ced0c9-b74e-4406-a1df-9be825a04e7e)
+## Active Binocular vision system
+The Static base is replaced with servo system and Convergence of the image on both the setup is made
+by controlling the servo system with respect to the camera img.
+
+This mechanical convergence forms two geometric triangles.By solving the equations derived from the 
+servo angles, the system calculates the exact depth ($Z$) of the object relative to the baseline.
+
+## Output
+https://github.com/user-attachments/assets/2603df8d-184a-4ad2-aa12-cd7809b3de5b
+
