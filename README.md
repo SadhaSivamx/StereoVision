@@ -25,7 +25,12 @@ Calibration and Depth Map Generation for Active and Passive Stereo Vision System
 ├── license.md                    # License
 └── README.md
 ```
-## 📚 Resources & References
+### Steps Involved End to End 
+<br>
+<img width="1034" height="589" alt="image" src="https://github.com/user-attachments/assets/dabb0c96-eedf-41f7-99fe-663c0a778a80" />
+<br>
+
+### Resources & References
 
 **Math & Linear Algebra**
 <br>
