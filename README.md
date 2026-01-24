@@ -2,7 +2,7 @@
 Calibration and Depth Map Generation for Active and Passive Stereo Vision Systems.
 ### CodeSections 
 ```text
-/Stereo-Vision-Project
+StereoVision
 │
 ├── /calibration
 │   ├── CameraCalibration.py       # Intrinsic/Extrinsic Camera Calibration
