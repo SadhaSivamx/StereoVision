@@ -1,5 +1,24 @@
 ## StereoVision
-stereovision with esp32 cams for depth estimation , using Yolo , Opencv etc 
+Calibration and Depth Map Generation for Active and Passive Stereo Vision Systems.
+## Code Sections 
+/Stereo-Vision-Project
+│
+├── /calibration
+│   ├── calibrate_camera.py       # (1) Camera Calibration
+│   ├── perspective_transform.py  # (1) Perspective Transformation
+│   └── utils.py
+│
+├── /stereo_core
+│   ├── focal_estimation.py       # (2) Estimating Focal Length
+│   ├── distance_measure.py       # (2) Distance by Disparity
+│   └── depth_map.py              # (4) Depth Map via Template Matching
+│
+├── /hardware
+│   └── servo_control.py          # (3) Active Stereo (Servo mechanics)
+│
+├── main.py                       # Main execution pipeline
+├── requirements.txt
+└── README.md
 ## References
 1. [ESP32 stereo camera for object detection, recognition and distance estimation](https://www.youtube.com/watch?v=CAVYHlFGpaw)
 2. [Depth Estimation with OpenCV Python for 3D Object Detection](https://www.youtube.com/watch?v=uKDAVcSaNZA)
