@@ -25,16 +25,20 @@ Calibration and Depth Map Generation for Active and Passive Stereo Vision System
 ├── license.md                    # License
 └── README.md
 ```
-### Resources & References
+## 📚 Resources & References
+
+**Math & Linear Algebra**
 <br>
-Math ( linear algebra ) :
+Essential for understanding the matrix operations used in calibration.
+1. [Essence of Linear Algebra (3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - *Visualizing linear transformations.*
+2. [The Matrix Transpose: Visual Intuition](https://www.youtube.com/watch?v=wjYpzkQoyD8) - *Understanding how matrices flip/rotate data.*
+
 <br>
-1. [Essence of Linear Algebra ](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-2. [Matrix Transpose](https://www.youtube.com/watch?v=wjYpzkQoyD8)
+
+**Calibration & Stereo Vision**
 <br>
-Calibration and Stereo :
-<br>
-1. [Simple Stereo | Camera Calibration](https://www.youtube.com/watch?v=hUVyDabn1Mg)
-2. [ESP32 stereo camera for object detection, recognition and distance estimation](https://www.youtube.com/watch?v=CAVYHlFGpaw)
-3. [Depth Estimation with OpenCV Python for 3D Object Detection](https://www.youtube.com/watch?v=uKDAVcSaNZA)
+Core concepts and practical implementation guides.
+1. [Simple Stereo | Camera Calibration](https://www.youtube.com/watch?v=hUVyDabn1Mg) - *First Principles of Computer Vision.*
+2. [ESP32 Stereo Camera for Distance Estimation](https://www.youtube.com/watch?v=CAVYHlFGpaw) - *Hardware implementation example.*
+3. [Depth Estimation with OpenCV Python](https://www.youtube.com/watch?v=uKDAVcSaNZA) - *Code walkthrough for 3D object detection.*
 
