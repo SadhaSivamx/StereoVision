@@ -1,6 +1,6 @@
-## StereoVision
+### StereoVision
 Calibration and Depth Map Generation for Active and Passive Stereo Vision Systems.
-## Code Sections 
+### CodeSections 
 ```text
 /Stereo-Vision-Project
 │
@@ -25,4 +25,12 @@ Calibration and Depth Map Generation for Active and Passive Stereo Vision System
 ├── license.md                    # License
 └── README.md
 ```
+### Resources & References
+Math ( linear algebra ) :
+1. [Essence of Linear Algebra ](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+2. [Matrix Transpose](https://www.youtube.com/watch?v=wjYpzkQoyD8)
+Calibration and Stereo :
+1. [Simple Stereo | Camera Calibration](https://www.youtube.com/watch?v=hUVyDabn1Mg)
+2. [ESP32 stereo camera for object detection, recognition and distance estimation](https://www.youtube.com/watch?v=CAVYHlFGpaw)
+3. [Depth Estimation with OpenCV Python for 3D Object Detection](https://www.youtube.com/watch?v=uKDAVcSaNZA)
 
