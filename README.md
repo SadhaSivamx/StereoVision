@@ -17,6 +17,9 @@ stereovision with esp32 cams for depth estimation , using Yolo , Opencv etc
 the Above Process is done for every pixel and the depthmap is generated
 ## References
 1. [Simple Stereo | Camera Calibration](https://www.youtube.com/watch?v=hUVyDabn1Mg)
+2. [Essence of Linear Algebra ](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+3. [Matrix Transpose](https://www.youtube.com/watch?v=wjYpzkQoyD8)
+
 ## Output
 ![DepthMap](https://github.com/user-attachments/assets/00ced0c9-b74e-4406-a1df-9be825a04e7e)
 ## Active Binocular vision system
