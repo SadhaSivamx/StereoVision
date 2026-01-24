@@ -15,6 +15,7 @@ StereoVision
 │
 ├── /Binocular
 │   ├── Main.py                   # Control and Depth Estimation
+│   ├── Problem.png               # Setup and Equations
 │   └── servo.txt                 # Active Vision: Servo control for camera rig
 │
 ├── /StereoMap
