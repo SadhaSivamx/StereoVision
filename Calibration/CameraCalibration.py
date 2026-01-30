@@ -44,7 +44,11 @@ def decompose_projection(P):
     T = np.diag(np.sign(np.diag(K)))
     K = K @ T
     R = T @ R
-
+    
+    scale_factor = K[2, 2]
+    K = K / scale_factor
+    h = h / scale_factor
+    
     t = np.linalg.inv(K) @ h
 
     return K, R, t
@@ -133,6 +137,7 @@ if len(points_2d) == 6:
     print(f"Principal Point: ({K[0, 2]:.2f}, {K[1, 2]:.2f})")
     print(f"Distance to Object: {np.linalg.norm(t):.2f} units")
     print("=" * 30)
+
 
 
 cv.destroyAllWindows()
